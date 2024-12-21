@@ -16,7 +16,7 @@
         }
     </script>
 </head>
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white overflow-hidden">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
 <header class="bg-white dark:bg-gray-800 shadow flex items-center p-3">
     <button class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
         <svg class="w-6 h-6 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 17 14">
@@ -143,28 +143,28 @@
      </button>
      <div class="py-4 overflow-y-auto">
       <ul class="space-y-2 font-medium">
+         <li class="me-2" role="presentation">
+            <a href="index.html" class="inline-flex gap-2 items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+               <svg class="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
+              </svg>
+                Home
+            </a>
+        </li>
+        <li class="me-2" role="presentation">
+            <a href="skills.html" class="inline-flex gap-2 items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+             <i class="fa-solid fa-brain"></i> 
+                 Skills
+            </a>
+        </li>
+        <li class="me-2" role="presentation">
+            <a href="attainment.html" class="inline-flex gap-2 items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+             <i class="fa-solid fa-user-graduate"></i>
+                Educational Level
+            </a>
+        </li>
           <li class="me-2" role="presentation">
-              <a href="index.html" class="inline-flex items-center px-4 py-3 text-white bg-purple-700 rounded-lg active w-full dark:bg-blue-600" aria-current="page">
-                  <svg class="w-4 h-4 me-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
-                  </svg>
-                 Home
-              </a>
-          </li>
-          <li class="me-2" role="presentation">
-              <a href="skills.html" class="inline-flex gap-2 items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
-               <i class="fa-solid fa-brain"></i> 
-                   Skills
-              </a>
-          </li>
-          <li class="me-2" role="presentation">
-              <a href="attainment.html" class="inline-flex gap-2 items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
-               <i class="fa-solid fa-user-graduate"></i>
-                  Educational Level
-              </a>
-          </li>
-          <li class="me-2" role="presentation">
-              <a href="certificates.html" class="inline-flex gap-2 items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+            <a href="certificates.html" class="inline-flex items-center gap-2 px-4 py-3 text-white bg-purple-700 rounded-lg active w-full dark:bg-blue-600" aria-current="page">
                <i class="fa-solid fa-envelope"></i>
                   Certificates
               </a>
@@ -172,33 +172,7 @@
       </ul>
   </div>
  </div>
- <div class="container grid grid-cols-1 gap-4 mx-auto md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-profile-width">
-    <div class="flex justify-center items-center flex-col">
-        <h1 class="text-4xl font-bold mt-10  whitespace-nowrap">I'm Kim F. Gamot</h1>
-        <h2 class="mb-3 italic  text-gray-900 dark:text-gray-300 ">Web Developer</h2>
-        <div class="w-96">
-        <p class="text-lg text-gray-900 dark:text-gray-300 w-72 mb-3 text-center mx-auto">I'm a web developer based in the Philippines. I specialize in creating websites and web applications using modern technologies.</p>
-        </div>
-        <div class="w-auto py-3 px-8 border-2 border-black dark:border-white mt-8 rounded-lg bg-grey-100">
-            <h1 class="font-medium text-center">Media :</h1>
-            <div class="flex justify-center gap-2.5">
-            <a href="https://www.facebook.com/kimkim.gamot" target="_blank" class="text-4xl"><i class="fa-brands fa-square-facebook h-10"></i></a>
-            <a href="https://www.instagram.com/duplicationph/" target="_blank" class="text-4xl"><i class="fa-brands fa-square-instagram h-10"></i></a>
-            <a href="https://github.com/Duplication1" target="_blank" class="text-4xl"><i class="fa-brands fa-square-github h-10"></i></a>
-            </div>
-        </div>
-        <div class="w-auto py-3 px-8">
-         <h1 class="font-medium text-center">Contacts :</h1>
-         <div class="flex flex-col">
-         <a href="mailto:gamot.kim.fernandez@gmail.com" class="text-lg border-2 border-black dark:border-white mt-3 rounded-full border-solid flex justify-center items-center p-2.5 gap-2"><i class="fa-solid fa-envelope"></i> gamot.kim.fernandez@gmail.com</a>
-         <a href="tel:+639617514454" class="text-lg border-2 border-black dark:border-white rounded-full border-solid flex justify-center items-center p-2.5 gap-2 w-44 mt-3"><i class="fa-solid fa-phone"></i> +639617514454</a>
-         </div>
-     </div>
-    </div>
-    <div class="container mx-auto h-profile-height w- flex justify-center items-center">
-        <img src="images/profile.svg" alt="profile" class="profile w-full height-full" />
-    </div>
-</div>
+
  <script src="index.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
