@@ -1,13 +1,13 @@
 module.exports = {
-  purge: ['./**/*.html', './**/*.js'],
+  purge: ['./**/*.html', './**/*.js'], // Ensure your custom classes are not purged
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       height: {
-        'profile-height': '30rem', // Add your custom height value here
+        'profile-height': '30rem', // Custom height value
       },
       width: {
-        'profile-width': '25rem', // Add your custom height value here
+        'profile-width': '25rem', // Custom width value
       },
     },
   },
